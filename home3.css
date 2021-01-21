@@ -1,0 +1,409 @@
+h1 {
+  background-color: lightgray;
+  margin-top: 0px;
+  padding-left: 150px;
+}
+h1 a {
+  color: black;
+  font-size: 20px;
+}
+.title {
+  padding-left: 150px;
+  display: flex;
+}
+h2 img {
+  padding-left: 20px;
+  margin-bottom: 3px;
+}
+.jr img {
+  width: 250px;
+}
+.listen img {
+  padding-top: 10px;
+  padding-left: 25px;
+}
+ .w1000 img {
+  display: none;
+}
+.nav-hidden {
+  display: none;
+}
+#menubtn li {
+  width: 100%;
+  max-width: 50px;
+}
+
+/* nav {
+  display: none;
+} */
+#nav-input :checked ~ nav {
+  display: block;
+  animation: 1s fadeIn;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.navhidden {
+  display: none;
+} 
+.link {
+  background-color: red;
+  text-align: center;
+  margin: 0px;
+  display: flex;
+  padding-left: 150px;
+  font-size: 12px;
+  color: aliceblue;
+}
+.link li{
+  display: table-cell;
+  border-left: solid 1px white;
+  padding: 14px 60px 14px 60px ;
+}
+.key {
+  border-right: solid 1px white;
+}
+.topmessage {
+  display: flex;
+}
+
+.topmessage h3 {
+  font-size: 12px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+
+}
+
+ a {
+  text-decoration: none;
+  color: aliceblue;
+ }
+ .home {
+  border-top: solid 1px red;
+  border-bottom: solid 1px red;
+  font-size: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 150px;
+}
+.home a {
+  color: red;
+}
+
+.image {
+  position: relative;
+}
+h2 {
+  padding-left: 150px;
+}
+.image h2 {
+  position: absolute;
+  color: white;
+  left: 30px;
+  font-size: 2vw;
+  top: 50px;
+}
+.kyushu {
+  position: absolute;
+  color: white;
+  font-size: 10px;
+  top: 100px;
+  left: 150px;
+  padding-top: 15px;
+  margin-top: 30px;
+  border-top: solid 1px white;
+}
+.king {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 120px;
+  left: 150px;
+  padding-top: 20px;
+}
+ body {
+  margin: 0px;
+ }
+ .drug {
+  display: flex;
+ }
+ .eleven h2 {
+  padding-top: 30px;
+ }
+ .eleven p {
+  padding-left: 150px;
+ }
+.company {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  }
+.information {
+  border: solid 1px red;
+  border-radius: 4px;
+  padding: 0px;
+  width: 220px;
+  margin-right: 100px;
+}  
+.information li {
+  border-top: solid 1px red;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-bottom: 15px;
+  }
+  .sha {
+    text-align: left;
+  }
+  .kunoji {
+    float: right;
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  
+.information li a {
+  color: black;
+  font-size: 5px;
+  }
+footer {
+  background-color: red;
+  margin-top: 100px;
+}
+.container {
+  table-layout: fixed;
+  display: flex;
+  color: aliceblue;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.foot1 {
+  padding: 50px 150px 50px 200px;
+}
+.foot1 img {
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+.top {
+  padding-right: 20px;
+  font-size: 12px;
+}
+.top li {
+  padding-top: 10px;
+}
+.pha {
+  padding-right: 20px;
+  padding-left: 25px;
+  font-size: 12px;
+}
+.pha li {
+  padding-top: 10px;
+}
+.tenpo {
+  display: flex;
+}
+.foot2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 12px;
+  display: flex;
+}
+.ev {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.cus {
+  padding-right: 100px;
+  border-left: solid  1px white;
+}
+.gide {
+  padding-right: 100px;
+}
+.item {
+  display: table-cell;
+  padding-left: 13px;
+}
+.card {
+  padding-bottom: 15px;
+}
+  
+
+ul {
+  list-style: none;
+}
+.pharmacy {
+  border-top: solid 1px white;
+  margin: 0px;
+  display: flex;
+  font-size: 10px;
+}
+.privacy {
+  padding-left: 200px;
+}
+.privacy a {
+  padding-right: 15px;
+}
+.copy {
+  padding-left: 550px;
+  color: aliceblue;
+}
+@media(max-width: 767px) {
+  h1 {
+  padding-left: 0px;
+  text-align: center;
+  }
+  .title{
+    padding-left: 30px;
+  }
+  .hunberger {
+    display: flex;
+  }
+  #menubtn img{
+    width: 100%;
+    max-width: 50px;
+  }
+  .w1000 {
+    max-width: 1000px;
+    padding-left: 100px;
+    margin-right: 0px;
+  }
+  .w1000 img {
+    display: inline;
+    padding-left: 30px;
+  }
+  nav {
+    background-color: #ccc;
+    display: none;
+ 
+  }
+  #nav-input:checked ~ nav {
+    display: block;
+    animation: 1s fadeIn;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1;}
+  }
+  .nav-hidden {
+    display: none;
+  }
+  .link {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    color: black;
+    display: block;
+  }
+  .link li{
+    display: block;
+    border-left: solid 1px white;
+    padding: 0;
+    padding-bottom: 10px;
+    
+  }
+  .link li a {
+    color: black;
+  }
+  .hunberger link {
+    float: left;
+  }
+  .key {
+    border-right: solid 1px white;
+  }
+
+  .kyushu {
+    font-size: 1vw;
+    top: 60px;
+    left: 30px;
+    padding-top:20px;
+    margin-top: 30px;
+    border-top: solid 1px white;
+}
+  .king {
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    top: 100px;
+    left: 30px;
+    padding-top: 20px;
+  }
+  .listen {
+    display: none;
+ }
+ .topmessage {
+   padding-left: 15px;
+   display: block;
+   margin: 0px;
+ }
+ .topmessage h2 {
+   margin: 0px;
+   padding-top: 15px;
+ }
+ .topmessage h3 {
+   margin: 0px;
+   padding-bottom: 15px;
+ }
+ .topmessage img {
+   display: none;
+ }
+ 
+  .home {
+   padding-left: 15px;
+ }
+  h2 {
+   padding-left: 0px;
+ }
+  .drug {
+  display: block;
+ }
+ .eleven {
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .eleven h2 {
+   padding-left: 15px;
+ }
+ .eleven p {
+   padding-left: 15px;
+   padding-bottom: 15px;
+ }
+ 
+ .information {
+  width: 450px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  margin-top: 30px;
+}
+.foot1 {
+  padding-top: 40px;
+  padding-left: 0px;
+}
+.tenpo {
+  display: block;
+}
+.pha {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.foot2 {
+  display: none;
+}
+.pharmacy {
+  display: block;
+}
+.privacy {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+.copy {
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+ 
+} 
